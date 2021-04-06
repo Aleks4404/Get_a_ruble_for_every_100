@@ -9,6 +9,6 @@ public class Main {
             bonusRubles = 0;
         }
         balanceRubles = balanceRubles + putRubles + bonusRubles;
-        System.out.println(bonusRubles);
-        System.out.println(balanceRubles);
+        System.out.println("Бонус от пополнения:" + bonusRubles);
+        System.out.println("Итоговая сумма на счету:" + balanceRubles);
     }}
